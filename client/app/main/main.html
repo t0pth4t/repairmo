@@ -1,28 +1,63 @@
 <div ng-include="'components/navbar/navbar.html'"></div>
 
-<header class="hero-unit" id="banner">
-  <div class="container">
-    <h1>'Allo, 'Allo!</h1>
-    <p class="lead">Kick-start your next web app with Angular Fullstack</p>
-    <img src="assets/images/yeoman.png" alt="I'm Yeoman">
+<!-- Intro Header -->
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1 class="brand-heading">REPAIRMO</h1>
+          <p class="intro-text">Free, fast, and easy automotive collision damage repair quotes. Just upload pictures of the damage and get repair quotes within minutes.</p>
+          <a href="#about" class="btn btn-circle page-scroll">
+            <i class="fa fa-angle-double-down animated"></i>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </header>
 
-<div class="container">
+<!-- About Section -->
+<section id="about" class="container content-section text-center">
   <div class="row">
-    <div class="col-lg-12">
-      <h1 class="page-header">Features:</h1>
-      <ul class="nav nav-tabs nav-stacked col-md-4 col-lg-4 col-sm-6" ng-repeat="thing in awesomeThings">
-        <li><a href="#" tooltip="{{thing.info}}">{{thing.name}}</a></li>
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>About Repairmo</h2>
+      <p>We take the hassle out of shopping around to get the best quote on collision repair for your vehichle. By using Repairmo, you can get quotes from auto body repair shops within minutes without ever leaving your home.</p>
+      <p>Just take a few pictures of the damage, upload them, and let the quotes roll in!</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>Contact Repairmo</h2>
+      <p>Feel free to email us</p>
+      <p><a href="mailto:contact@repairmo.com">contact@repairmo.com</a>
+      </p>
+      <ul class="list-inline banner-social-buttons">
+        <li>
+          <a href="https://twitter.com/repairmo" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+        </li>
+        <li>
+          <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+        </li>
+        <li>
+          <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+        </li>
       </ul>
     </div>
   </div>
-</div>
+</section>
 
-<footer class="footer">
-  <div class="container">
-      <p>Angular Fullstack v2.1.1 |
-        <a href="https://twitter.com/tyhenkel">@tyhenkel</a> |
-         <a href="https://github.com/DaftMonk/generator-angular-fullstack/issues?state=open">Issues</a></p>
+<!-- Map Section -->
+<div id="map"></div>
+
+<!-- Footer -->
+<footer>
+  <div class="container text-center">
+    <p>Copyright &copy; Your Website 2014</p>
   </div>
 </footer>
